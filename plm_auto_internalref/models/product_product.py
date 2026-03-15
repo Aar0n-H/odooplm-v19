@@ -25,7 +25,7 @@ from odoo import models
 from odoo import api
 
 class ProductProductExtension(models.Model):
-    _name = "product.product"
+  # _name = "product.product"  # removed for v19 compatibility
     _inherit = "product.product"
 
     @api.model_create_multi
