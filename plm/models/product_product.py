@@ -51,7 +51,7 @@ def emptyStringIfFalse(value):
 
 
 class ProductProduct(models.Model):
-    _name = "product.product"
+# _name = "product.product"  # removed for v19 compatibility
     _inherit = ["product.product"]
     _description = "Product Product"
 
