@@ -30,7 +30,7 @@ _logger = logging.getLogger(__name__)
 
 
 class PlmComponent(models.Model):
-    _name = 'product.product'
+ # _name = "product.product"  # removed for v19 compatibility
     _inherit = 'product.product'
 
     automatic_compute_selection = fields.Selection(
